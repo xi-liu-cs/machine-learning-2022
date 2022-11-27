@@ -8,7 +8,7 @@ Neural network part includes a multi-layer perceptron model using numpy from scr
 <br>
 Decision tree part contains a numpy implementation of decision tree classifier from scratch, an application of decision tree, and an application of random forest. For the numpy implementation of decision tree, the best split is found by choosing the split with the maximum information gain which is calculated from the combined difference of gini index or entropy between the parent and child node. For decision tree application, DecisionTreeClassifier from sklearn.tree is used, classifier.fit(x_train, y_train) is to fit the model, classifier.predict(x_test) method has input parameter of unlabeled observations x_test, and the return value is predicted labels y. standard scaler is used to normalize the data, a for loop is used to generate and use n different seeds for each classifier. For random forest, RandomForestClassifier from sklearn.ensemble is used, an estimator_array is used to store the number of trees in each forest. classifier.fit(x_train, y_train) is to fit the model, classifier.predict(x_test) method has input parameter of observations x_test, and the return value is predicted labels y. standard scaler is used to normalize the data, a for loop is used to generate and use n different seeds for each classifier.<br>
 <br>
-images produced after performing principal component analysis and k-means clustering on the data
+Images produced after performing principal component analysis and k-means clustering on the data are shown below.
 ![1](png/1.png)
 ![2](png/2.png)
 ![3](png/3.png)
